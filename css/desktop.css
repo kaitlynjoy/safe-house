@@ -1,0 +1,93 @@
+@media only screen and (min-width: 1024px){
+
+h4 {
+	padding: 45px 10px 30px 10px;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+a.btn-solid, #sign-up .btn-solid {
+	text-align: center;
+	width: 20%;
+	padding: 10px 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a.btn-center {
+	width: 30%;
+}
+	
+header .section-content{
+	min-height: 55vh;
+}
+
+p.dropped-word {
+	font-size: 4em;
+}
+
+header .section-content {
+	padding-top: 250px !important;
+}
+
+#about-section img {
+	top: 30px;
+	width: 100%;
+	float: none;
+	margin-bottom: 0px;
+	left: 0;
+}
+
+#pricing-section img {
+	width: 8em;
+	float: left;
+	margin: 0 70px;
+	padding-bottom: 200px;
+}
+
+div.three-col {
+	box-sizing: border-box;
+	width: 33%;
+	padding: 1%;
+	float: left;
+}
+
+img#gallery-main-image {
+	float: left;
+}
+
+ul#thumbnails li {
+
+	display: block;
+	padding-bottom: 10px;
+}
+
+ul#thumbnails {
+	width: 400px;
+	padding-top: 0;
+	margin-left: 530px;
+}
+
+ul#thumbnails img {
+	width: 125px;
+}
+
+#sign-up label {
+	margin: 30px 0 5px 30%;
+}
+
+#sign-up input {
+	width: 40%;
+}
+
+}
+
+@media only screen and (min-width: 1200px){
+
+.section-content {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+}

@@ -1,0 +1,141 @@
+@media only screen and (min-width: 600px){
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: left;
+} 
+
+h4 {
+	padding: 40px 50px 30px 50px;
+	width: 50%;
+	float: left;
+}
+
+h6 {
+	margin-top: 150px;
+	font-size: 2em;
+}
+
+a.btn-solid, #sign-up .btn-solid {
+	text-align: center;
+	width: 40%;
+	padding: 10px 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a.btn-center {
+	width: 45%;
+}
+
+a.btn-border {
+	overflow: hidden;
+}
+
+a.btn-border:hover {
+	text-indent: 30px;
+}
+
+
+/* -------------------- Mobile Navigation ---------------------- */
+nav img {
+	float: left;
+	margin-top: 5px;
+}
+
+nav ul {
+	padding-left: 20px;
+}
+
+nav ul li a {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 80px;
+	padding: 10px 0;
+	border-right: #fff solid 1px;
+
+}
+
+nav ul li a:hover {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+li.right-nav a{
+	-webkit-border-radius: 30px !important;
+	-moz-border-radius: 30px !important;
+	border-radius: 30px !important;
+	margin-left: 20px;
+	padding: 10px 0;
+	margin-top: 5px;
+}
+
+nav ul li a:hover, nav ul li:active {
+	background-color: #dddbc0;
+}
+
+/* -------------------- Sections ---------------------- */
+
+p.dropped-word {
+	font-size: 3em;
+	margin-left: 40px;
+
+}
+
+#about-section img {
+	top: 0;
+	width: 50%;
+	float: left;
+	clear: both;
+	margin-bottom: 40px;
+	left: 50px;
+}
+
+#pricing-section img {
+	width: 8em;
+	float: left;
+	margin-right: 40px;
+	padding-bottom: 200px;
+}
+
+footer h2 {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+div.two-col {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 1%;
+	float: left;
+}
+
+.search-result img {
+	width: 25%;
+	float: left;
+}
+
+.search-description {
+	margin-left: 30%;
+}
+
+.search-result a.btn-solid {
+	margin-top: 20px;
+}
+
+#sign-up label {
+	margin: 30px 0 5px 20%;
+}
+
+#sign-up input {
+	width: 60%;
+}
+
+}
